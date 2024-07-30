@@ -64,6 +64,11 @@ main {
   background-size: cover;
   background-color: #66a663;
 }
+.cell.bomb {
+  background-image: url(./img/bomb.png);
+  background-size: cover;
+  background-color: #ed9590;
+}
 
 .cell.active:not(.flag):hover {
   opacity: 0.7;
@@ -71,6 +76,11 @@ main {
 .cell {
   background-color: var(--purple);
   border-radius: 4px;
+
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  line-height: 30px;
 }
 
 .gameSetings {
